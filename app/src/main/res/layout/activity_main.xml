@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.als.convertendo.MainActivity">
+
+    <Button
+        android:id="@+id/butaoMedida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medidas"
+        android:padding="20dp"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/butaoMoeda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Moedas"
+        android:padding="20dp"
+        android:layout_marginTop="70dp"/>
+
+    <Button
+        android:id="@+id/butaoAngulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Angulos"
+        android:padding="20dp"
+        android:layout_marginTop="70dp"/>
+
+</LinearLayout>
